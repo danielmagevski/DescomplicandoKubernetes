@@ -28,9 +28,3 @@ kubectl get pvc
 kubectl describe pvc meu-pvc
 kubectl apply -f pod.yaml
 kubectl describe pod nginx-pod
-
-
-
-
-
-

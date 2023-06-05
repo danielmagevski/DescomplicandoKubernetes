@@ -10,24 +10,24 @@ E claro, vamos aprender como ver todos os detalhes de um Pod em execução e bri
 
 ## Comandos utilizados
 
-kubectl run giropops --image=nginx --port=80
-kubectl get pods
-kubectl get pods --all-namespaces
-kubectl get pods -A
-kubectl get pods -n <namespace>
-kubectl get pods -n kube-system
-kubectl get pods <nome-do-pod> -o yaml
-kubectl get pods giropops -o yaml
-kubectl get pods <nome-do-pod> -o json
-kubectl get pods giropops -o json
-kubectl get pods <nome-do-pod> -o wide
-kubectl get pods giropops -o wide
-kubectl describe pods giropops
-kubectl delete pods giropops
-kubectl logs giropops
-kubectl logs -f giropops
-kubectl attach giropops -c strigus
-kubectl exec giropops -c strigus -it -- sh
-kubectl exec giropops -c strigus -- ls
-kubectl exec -it ubuntu -- bash
+<p>kubectl run giropops --image=nginx --port=80</p>
+<p>kubectl get pods</p>
+<p>kubectl get pods --all-namespaces</p>
+<p>kubectl get pods -A</p>
+<p>kubectl get pods -n <namespace></p>
+<p>kubectl get pods -n kube-system</p>
+<p>kubectl get pods <nome-do-pod> -o yaml</p>
+<p>kubectl get pods giropops -o yaml</p>
+<p>kubectl get pods <nome-do-pod> -o json</p>
+<p>kubectl get pods giropops -o json</p>
+<p>kubectl get pods <nome-do-pod> -o wide</p>
+<p>kubectl get pods giropops -o wide</p>
+<p>kubectl describe pods giropops</p>
+<p>kubectl delete pods giropops</p>
+<p>kubectl logs giropops</p>
+<p>kubectl logs -f giropops</p>
+<p>kubectl attach giropops -c strigus</p>
+<p>kubectl exec giropops -c strigus -it -- sh</p>
+<p>kubectl exec giropops -c strigus -- ls</p>
+<p>kubectl exec -it ubuntu -- bash</p>
 
