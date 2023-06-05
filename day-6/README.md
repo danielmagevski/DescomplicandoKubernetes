@@ -2,14 +2,35 @@
 
 ## DAY-6
 
-#### O que são volumes?
+### O que iremos ver hoje?
 
-Para simplificar o seu entendimento nesse momento, volumes nada mais são do que um diretório dentro do `Pod` que pode ser utilizado para armazenar dados. Eles podem ser utilizados para armazenar dados que precisam ser persistidos, como por exemplo, dados de um banco de dados, ou dados de um sistema de arquivos distribuído.
+Durante o dia de hoje nós vamos aprender tudo sobre volumes, hoje é o dia de você finalmente descomplicar os volumes no Kubernetes! \o/
 
-Quando estamos falando sobre volumes no Kubernetes, precisamos entender que temos basicamente dois tipos de volumes, os `ephemeral volumes` e os `persistent volumes`.
+Hojel nós iremos entender e configurar o que é um configmap, um persistente volume (PV) e um persistent volume claim (PVC)! E para isso iremos utilizar como exemplo diferentes tipos de clusters Kubernetes! Calma, eu explico melhor!
 
-Os `ephemeral volumes`, que inclusive já vimos durante o treinamento o `emptyDir`, são volumes que são criados e destruídos junto com o `Pod`. Ele é um volume também, porém com uma diferença, ele não é persistente. Caso ocorra algum problema com o `Pod` e ele seja removido, o `emptyDir` também será removido.
+Para ajudar no nosso aprendizado sobre volumes, vamos utlizar diferentes clusters Kubernetes! Vamos ter exemplos utilizando EKS, kind e instâncias em cloud providers.
 
-Agora quando estamos falando sobre volumes do tipo `persistent volumes`, estamos falando sobre volumes que são criados e não são destruídos junto com o `Pod`, eles são persistidos, são volumes que seus dados são mantidos mesmo que o `Pod` seja removido.
+Então fique ciente de que hoje é o dia onde você irá descomplicar volumes no Kubernetes! #VAIIII.
 
-Esse tipo de volume é super importante para aplicações que precisam armazenar dados que precisam ser mantidos mesmo que o `Pod` seja removido, como por exemplo, um banco de dados.
+## Comandos utilizados
+
+kubectl get storageclass
+kubectl describe storageclass standard
+kubectl apply -f storageclass.yaml
+kubectl describe storageclass giropops
+kubectl get pv -A
+kubectl apply -f pv.yaml
+kubectl get pv
+kubectl describe pv meu-pv
+kubectl apply -f pv-nfs.yaml
+kubectl apply -f pvc.yaml
+kubectl get pvc
+kubectl describe pvc meu-pvc
+kubectl apply -f pod.yaml
+kubectl describe pod nginx-pod
+
+
+
+
+
+
