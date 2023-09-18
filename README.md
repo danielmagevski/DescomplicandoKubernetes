@@ -10,6 +10,8 @@ Repositorio criado para documentar o treinamento e o processo da apredizagem do 
 - DAY-4
 - DAY-5
 - DAY-6
+- DAY-7
+- DAY-8
 
 ---
 ## Material de apoio
