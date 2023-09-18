@@ -14,17 +14,17 @@ Então fique ciente de que hoje é o dia onde você irá descomplicar volumes no
 
 ## Comandos utilizados
 
-kubectl get storageclass
-kubectl describe storageclass standard
-kubectl apply -f storageclass.yaml
-kubectl describe storageclass giropops
-kubectl get pv -A
-kubectl apply -f pv.yaml
-kubectl get pv
-kubectl describe pv meu-pv
-kubectl apply -f pv-nfs.yaml
-kubectl apply -f pvc.yaml
-kubectl get pvc
-kubectl describe pvc meu-pvc
-kubectl apply -f pod.yaml
-kubectl describe pod nginx-pod
+<p>kubectl get storageclass</p>
+<p>kubectl describe storageclass standard</p>
+<p>kubectl apply -f storageclass.yaml</p>
+<p>kubectl describe storageclass giropops</p>
+<p>kubectl get pv -A</p>
+<p>kubectl apply -f pv.yaml</p>
+<p>kubectl get pv</p>
+<p>kubectl describe pv meu-pv</p>
+<p>kubectl apply -f pv-nfs.yaml</p>
+<p>kubectl apply -f pvc.yaml</p>
+<p>kubectl get pvc
+<p>kubectl describe pvc meu-pvc</p>
+<p>kubectl apply -f pod.yaml</p>
+<p>kubectl describe pod nginx-pod</p>
