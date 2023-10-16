@@ -24,19 +24,25 @@ Hoje é o dia de você aprender sobre esses dois objetos que são super importan
 <p>kubectl apply -f nginx-deployment.yaml</p>
 <p>ubectl get deployments</p>
 <p>kubectl get replicasets</p>
+<p>kubectl scale deployment nginx-deployment --replicas=3</p>
 <p>kubectl describe deployment nginx-deployment</p>
 <p>kubectl rollout undo deployment nginx-deployment</p>
 <p>kubectl apply -f nginx-replicaset.yaml</p>
 <p>kubectl get pods</p>
 <p>kubectl describe replicaset nginx-replicaset</p>
+<p>kubectl delete pod nginx-replicaset</p>
 <p>kubectl get pods -o=jsonpath='{range .items[*]}{"\n"}{.metadata.name}{"\t"}{range .spec.containers[*]}{.image}{"\t"}{end}{end}'</p>
+<p>kubectl get pods -o wide -l app=node-exporter</p>
 <p>kubectl delete replicaset nginx-replicaset</p>
 <p>kubectl delete -f nginx-replicaset.yaml</p>
 <p>kubectl apply -f node-exporter-daemonset.yaml</p>
+<p>kubectl get daemonset</p>
 <p>kubectl get pods -l app=node-exporter</p>
-<p>kubectl get pods -o wide -l app=node-exporter</p>
+<p>kubectl describe daemonset node-exporter</p>
 <p>kubectl rollout status deployment/nginx-deployment</p>
+<p>kubectl describe pod nginx-deployment</p>
 <p>kubectl apply -f nginx-startup.yaml</p>
+kubectl apply -f nginx-startup.yaml</p>
 <p>kubectl apply -f nginx-todas-probes.yaml</p>
 
 
