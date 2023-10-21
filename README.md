@@ -12,6 +12,14 @@ Repositorio criado para documentar o treinamento e o processo da apredizagem do 
 - DAY-6
 - DAY-7
 - DAY-8
+- DAY-8
+- DAY-9
+- DAY-10
+- DAY-11
+- DAY-12
+- DAY-13
+- DAY-14
+- DAY-15
 
 ---
 ## Material de apoio
