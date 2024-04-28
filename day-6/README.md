@@ -10,8 +10,6 @@ Hoje nós iremos entender e configurar o que é um configmap, um persistente vol
 
 Para ajudar no nosso aprendizado sobre volumes, vamos utlizar diferentes clusters Kubernetes! Vamos ter exemplos utilizando EKS, kind e instâncias em cloud providers.
 
-Então fique ciente de que hoje é o dia onde você irá descomplicar volumes no Kubernetes! #VAIIII.
-
 ## Comandos utilizados
 
 <p>kubectl get storageclass</p>
