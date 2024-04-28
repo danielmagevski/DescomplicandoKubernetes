@@ -9,11 +9,9 @@ Durante o dia de hoje nós iremos aprender sobre um objeto muito importante no K
 ## Comandos utilizados
 
 <p>kubectl apply -f deployment.yaml</p>
-<p>kubectl apply -f deployment.yaml</p>
-<p>kubectl get pods -l app=nginx</p>
+<p>kubectl get pods -l nginx-deployment</p>
 <p>kubectl get replicasets -l app=nginx</p>
 <p>kubectl describe deployment nginx-deployment</p>
-<p>kubectl rollout status deployment nginx-deployment</p>
 <p>kubectl rollout status deployment nginx-deployment</p>
 <p>kubectl get pods -l app=nginx-deployment -o yaml</p>
 <p>kubectl rollout undo deployment nginx-deployment --to-revision=1</p>
