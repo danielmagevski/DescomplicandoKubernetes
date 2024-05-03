@@ -1,6 +1,6 @@
 # Descomplicando o Kubernetes
 
-Repositorio criado para documentar o treinamento e o processo da apredizagem do curso da LINUXTips [Descomplicando o Kubernetes - Expert Mode](https://www.linuxtips.io/course/descomplicando-o-kubernetes-expert-mode)
+Repositorio criado para documentar o treinamento e o processo da aprendizagem do curso da LINUXTips [Descomplicando o Kubernetes - Expert Mode](https://www.linuxtips.io/course/descomplicando-o-kubernetes-expert-mode)
 
 ## Conteúdo
 
@@ -11,7 +11,6 @@ Repositorio criado para documentar o treinamento e o processo da apredizagem do 
 - DAY-5
 - DAY-6
 - DAY-7
-- DAY-8
 - DAY-8
 - DAY-9
 - DAY-10
